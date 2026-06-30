@@ -8,7 +8,7 @@ let package = Package(
     .macOS(.v12)
   ],
   dependencies: [
-    .package(url: "https://github.com/raycast/extensions-swift-tools", from: "1.0.4")
+    .package(url: "https://github.com/raycast/extensions-swift-tools.git", branch: "xcode-26.4.x")
   ],
   targets: [
     // Targets are the basic building blocks of a package, defining a module or a test suite.
